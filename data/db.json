@@ -1,0 +1,315 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Electronics",
+      "slug": "electronics",
+      "image": "https://images.unsplash.com/photo-1498049794561-7780e7231661?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 2,
+      "name": "Clothing",
+      "slug": "clothing",
+      "image": "https://images.unsplash.com/photo-1445205170230-053b83016050?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 3,
+      "name": "Jewelery",
+      "slug": "jewelery",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=300&h=200&fit=crop"
+    },
+    {
+      "id": 4,
+      "name": "Home & Kitchen",
+      "slug": "home-kitchen",
+      "image": "https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?w=300&h=200&fit=crop"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Noise ColorFit Smartwatch",
+      "price": 2499,
+      "description": "Indian smartwatch with health monitoring, 1.69-inch display and 7 days battery life.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400&h=400&fit=crop",
+      "stock": 45,
+      "rating": { "rate": 4.3, "count": 234 }
+    },
+    {
+      "id": 2,
+      "title": "boAt Rockerz Headphones",
+      "price": 1299,
+      "description": "Wireless Bluetooth headphones with 40mm drivers and 20 hours battery backup.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=400&fit=crop",
+      "stock": 78,
+      "rating": { "rate": 4.5, "count": 567 }
+    },
+    {
+      "id": 3,
+      "title": "Redmi Note 12",
+      "price": 15999,
+      "description": "Popular Indian smartphone with 6GB RAM, 128GB storage and 50MP camera.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=400&fit=crop",
+      "stock": 23,
+      "rating": { "rate": 4.2, "count": 189 }
+    },
+    {
+      "id": 4,
+      "title": "Cotton Silk Saree",
+      "price": 3599,
+      "description": "Traditional Kanchipuram cotton silk saree with zari border - perfect for weddings.",
+      "category": "clothing",
+      "image": "https://images.unsplash.com/photo-1610030468706-9a6dbad49b0a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=687",
+      "stock": 15,
+      "rating": { "rate": 4.7, "count": 89 }
+    },
+    {
+      "id": 5,
+      "title": "Men's Kurta Pyjama",
+      "price": 1899,
+      "description": "Comfortable cotton kurta pyjama set for festive occasions and daily wear.",
+      "category": "clothing",
+      "image": "https://plus.unsplash.com/premium_photo-1691030256201-b73e0d0c60e1?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDUyfHx8ZW58MHx8fHx8&auto=format&fit=crop&q=60&w=600",
+      "stock": 34,
+      "rating": { "rate": 4.4, "count": 156 }
+    },
+    {
+      "id": 6,
+      "title": "Salwar Kameez",
+      "price": 2299,
+      "description": "Beautiful printed salwar kameez with dupatta - latest fashion design.",
+      "category": "clothing",
+      "image": "https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNhbHdhciUyMHN1aXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600",
+      "stock": 28,
+      "rating": { "rate": 4.6, "count": 203 }
+    },
+    {
+      "id": 7,
+      "title": "22K Gold Temple Jewellery",
+      "price": 12500,
+      "description": "Traditional Tamil temple jewellery set with authentic gold work.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=400&h=400&fit=crop",
+      "stock": 8,
+      "rating": { "rate": 4.8, "count": 67 }
+    },
+    {
+      "id": 8,
+      "title": "Silver Anklets",
+      "price": 1899,
+      "description": "Traditional silver anklets with bells - perfect for classical dance.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=400&h=400&fit=crop",
+      "stock": 42,
+      "rating": { "rate": 4.5, "count": 134 }
+    },
+    {
+      "id": 9,
+      "title": "Diamond Nose Pin",
+      "price": 7599,
+      "description": "Elegant diamond nose pin with traditional South Indian design.",
+      "category": "jewelery",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=400&h=400&fit=crop",
+      "stock": 19,
+      "rating": { "rate": 4.7, "count": 78 }
+    },
+    {
+      "id": 10,
+      "title": "Stainless Steel Cookware Set",
+      "price": 4599,
+      "description": "7-piece stainless steel cookware set for Indian kitchen - induction compatible.",
+      "category": "home-kitchen",
+      "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=400&h=400&fit=crop",
+      "stock": 31,
+      "rating": { "rate": 4.4, "count": 287 }
+    },
+    {
+      "id": 11,
+      "title": "Traditional Brass Lamps",
+      "price": 1299,
+      "description": "Set of traditional brass diya lamps for pooja and home decoration.",
+      "category": "home-kitchen",
+      "image": "https://images.unsplash.com/photo-1659100171587-a8a5e9d9417a?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fFRyYWRpdGlvbmFsJTIwQnJhc3MlMjBMYW1wc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
+      "stock": 56,
+      "rating": { "rate": 4.6, "count": 145 }
+    },
+    {
+      "id": 12,
+      "title": "Handloom Cotton Bedsheets",
+      "price": 1799,
+      "description": "Premium handloom cotton bedsheets with traditional Tamil patterns.",
+      "category": "home-kitchen",
+      "image": "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=400&h=400&fit=crop",
+      "stock": 67,
+      "rating": { "rate": 4.3, "count": 198 }
+    },
+    {
+      "id": 13,
+      "title": "Realme Buds Wireless",
+      "price": 1799,
+      "description": "Wireless earbuds with ENC technology and 30 hours battery life.",
+      "category": "electronics",
+      "image": "https://images.unsplash.com/photo-1622986416229-fc8233af2ae6?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UmVhbG1lJTIwQnVkcyUyMFdpcmVsZXNzfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600",
+      "stock": 89,
+      "rating": { "rate": 4.2, "count": 456 }
+    },
+    {
+      "id": 14,
+      "title": "Silk Veshti",
+      "price": 2899,
+      "description": "Traditional Tamil silk veshti for men - perfect for weddings and ceremonies.",
+      "category": "clothing",
+      "image": "https://images.unsplash.com/photo-1650632784627-d62cdce5e84f?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fFZlc2h0aXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&q=60&w=600",
+      "stock": 22,
+      "rating": { "rate": 4.7, "count": 112 }
+    },
+    {
+      "id": 15,
+      "title": "Pressure Cooker",
+      "price": 2199,
+      "description": "3-liter stainless steel pressure cooker for Indian cooking style.",
+      "category": "home-kitchen",
+      "image": "https://images.unsplash.com/photo-1584905066893-7d5c142ba4e1?w=400&h=400&fit=crop",
+      "stock": 43,
+      "rating": { "rate": 4.5, "count": 324 }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "karthik.rajan@example.com",
+      "name": "Karthik Rajan",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "phone": "+91 98765 43210",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": 2,
+      "email": "priya.sundar@example.com",
+      "name": "Priya Sundar",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+      "phone": "+91 87654 32109",
+      "createdAt": "2024-01-16T14:20:00Z"
+    },
+    {
+      "id": 3,
+      "email": "arun.kumar@example.com",
+      "name": "Arun Kumar",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "phone": "+91 76543 21098",
+      "createdAt": "2024-01-17T09:15:00Z"
+    }
+  ],
+  "wishlists": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 4,
+      "addedAt": "2024-01-18T11:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "productId": 7,
+      "addedAt": "2024-01-18T15:30:00Z"
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "productId": 2,
+      "quantity": 1,
+      "addedAt": "2024-01-19T12:00:00Z"
+    },
+    {
+      "id": 2,
+      "userId": 1,
+      "productId": 11,
+      "quantity": 2,
+      "addedAt": "2024-01-19T12:15:00Z"
+    }
+  ],
+  "addresses": [
+    {
+      "id": 1,
+      "userId": 1,
+      "fullName": "Karthik Rajan",
+      "addressLine1": "45 North Mada Street",
+      "addressLine2": "Mylapore",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zipCode": "600004",
+      "country": "India",
+      "phone": "+91 98765 43210",
+      "isDefault": true
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "fullName": "Priya Sundar",
+      "addressLine1": "78 East Raja Street",
+      "addressLine2": "Coimbatore",
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "zipCode": "641001",
+      "country": "India",
+      "phone": "+91 87654 32109",
+      "isDefault": true
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "fullName": "Arun Kumar",
+      "addressLine1": "12 Sarojini Street",
+      "addressLine2": "T Nagar",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "zipCode": "600017",
+      "country": "India",
+      "phone": "+91 76543 21098",
+      "isDefault": true
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "userId": 1,
+      "orderDate": "2024-01-10T14:30:00Z",
+      "status": "delivered",
+      "totalAmount": 5597,
+      "shippingAddressId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "quantity": 1,
+          "price": 2499,
+          "title": "Noise ColorFit Smartwatch",
+          "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=100&h=100&fit=crop"
+        },
+        {
+          "productId": 5,
+          "quantity": 1,
+          "price": 1899,
+          "title": "Men's Kurta Pyjama",
+          "image": "https://images.unsplash.com/photo-1594637375970-63c8eda3593c?w=100&h=100&fit=crop"
+        },
+        {
+          "productId": 8,
+          "quantity": 1,
+          "price": 1199,
+          "title": "Silver Anklets",
+          "image": "https://images.unsplash.com/photo-1506630448388-4e683c67ddb0?w=100&h=100&fit=crop"
+        }
+      ],
+      "shippingDetails": {
+        "carrier": "DTDC",
+        "trackingNumber": "DTDC7890123456",
+        "estimatedDelivery": "2024-01-15T00:00:00Z"
+      }
+    }
+  ]
+}
