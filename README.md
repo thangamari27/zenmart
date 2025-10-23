@@ -1,4 +1,52 @@
 # Zenmart
+A React-based Admin Simulation & Product Management project demonstrating product listing, dynamic search/sort, cart, wishlist, checkout, and order management using json-server and Firebase Google Authentication.
+
+## 🧱 Folder Structure
+
+```
+Zenmart/
+├── data/
+│   └── db.json
+├── src/
+│   ├── assets/
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.jsx
+│   │   │   └── ProtectedRoute.jsx
+│   │   └── products/
+│   │       ├── ProductCard.jsx
+│   │       ├── ProductGrid.jsx
+│   │       └── SearchSortBar.jsx
+│   ├── contexts/
+│   │   ├── AuthContext.jsx
+│   │   ├── CartContext.jsx
+│   │   └── ProductContext.jsx
+│   ├── firebase/config.js
+│   ├── hooks/useAddress.js
+│   ├── pages/
+│   │   ├── admin/
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   ├── ManageOrders.jsx
+│   │   │   └── ManageProducts.jsx
+│   │   ├── Cart.jsx
+│   │   ├── Checkout.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── Home.jsx
+│   │   ├── Login.jsx
+│   │   ├── OrderHistory.jsx
+│   │   ├── ProductDetail.jsx
+│   │   ├── Products.jsx
+│   │   └── Wishlist.jsx
+│   ├── services/productService.js
+│   ├── utils/localStorage.js
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+├── .env
+├── package.json
+└── vite.config.js
+
+```
 
 ## Installation
 
